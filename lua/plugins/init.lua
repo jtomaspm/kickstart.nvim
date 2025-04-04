@@ -2,7 +2,7 @@ require 'plugins.lazy'
 
 require('lazy').setup({
   require 'plugins.colorscheme', -- Colorscheme
-  require 'plugins.vim-sleuth', -- Detect tabstop and shiftwidth automatically
+  require 'plugins.tabset', -- Detect tabstop and shiftwidth automatically
   require 'plugins.gitsigns', -- Adds git related signs to the gutter, as well as utilities for managing changes
   require 'plugins.which-key', -- Useful plugin to show you pending keybinds.
   require 'plugins.telescope', -- Fuzzy Finder (files, lsp, etc)
